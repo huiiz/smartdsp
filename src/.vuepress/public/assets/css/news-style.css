@@ -1,0 +1,35 @@
+@charset "utf-8";
+.clearfix:after{content:"";display:block;height:0px;clear:both;visibility:hidden}
+.clearfix{display:inline-block}
+/* Hides from IE-mac \*/ 
+* html .clearfix{height:1%}
+.clearfix{display:block} /* CSS Document */
+
+.page-single,.page-products,.page-news,.page-newsdetail,.page-jobs,.page-jobsdetail{margin-bottom:10px}
+.page-news table{width:98%;}
+.page-news table th{height:30px;line-height:30px;text-align:center;font-weight:bold;border:none 0px;font-size:12px}
+.page-news table th.news-time{width:100px;background:url(../images/info_title.gif) left top;color:#FFFFFF}
+.page-news table th.news-title{background:url(../images/info_title.gif) right top;color:#FFFFFF}
+.page-news table td{border-bottom:1px dashed #D7D7D7;padding:8px}
+.page-news table td.time-list{color:#066baf;text-align:center}
+.page-news table td.news-list{ text-align:center}
+
+.page_list{text-align:right;padding-top:10px}
+.page_list a{border:#ddd 1px solid;color:#15428b;padding:2px 5px;margin-right:2px}
+.page_list a:hover,.page_list a:active{border:#e1e6ed 1px solid;color:#000;background-color:#D3E1F6}
+.page_list span.current{border:#ddd 1px solid;padding:2px 5px;font-weight:bold;margin-right:2px;color:#FFF;background-color:#15428b}
+.page_list span.disabled{border:#f3f3f3 1px solid;padding:2px 5px;margin-right:2px;color:#CCC}
+
+.paper-list li:nth-child(even){ background:#FFF}
+.paper-list li:nth-child(odd){ background:#ECE1E7}
+
+.page-news table{width:98%;}
+.page-news table th{height:30px;line-height:30px;text-align:center;font-weight:bold;border:none 0px;font-size:12px}
+.page-news table th.news-time{width:100px;}
+.page-news table th.news-title{}
+.page-news table td{border-bottom:1px dashed #D7D7D7;padding:8px}
+.page-news table td.time-list{color:#066baf;text-align:center; width:25%}
+.page-news table td.topic-list{color:#066baf;text-align:center; width:40%}
+.page-news table td.people-list{color:#066baf;text-align:center; width:15%}
+.page-news table td.address-list{color:#066baf;text-align:center; width:20%}
+.page-news table td.news-list{ text-align:center}

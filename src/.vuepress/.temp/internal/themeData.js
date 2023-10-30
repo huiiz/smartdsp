@@ -1,0 +1,14 @@
+export const themeData = JSON.parse("{\"encrypt\":{\"config\":{\"/demo/encrypt.html\":[\"$2a$10$uG0mvTP.7JUcnxSUVKXAM.oNyWAXbCvg/goaW/VAB2MZJ5JCwd5si\"]}},\"author\":{\"name\":\"SmartDSP\",\"url\":\"https://xmu-smartdsp.github.io/\"},\"logo\":\"/logo.png\",\"repo\":\"XMU-smartdsp/XMU-smartdsp.github.io\",\"docsDir\":\"src\",\"footer\":\"地址：中国福建省厦门市翔安区厦门大学翔安校区西部片区6号楼211/201\",\"displayFooter\":true,\"print\":false,\"blog\":{\"articlePerPage\":3,\"description\":\"厦门大学智能数据分析与处理实验室\",\"intro\":\"/introduction.html\",\"sidebarDisplay\":\"none\"},\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"navbarLocales\":{\"langName\":\"简体中文\",\"selectLangAriaLabel\":\"选择语言\"},\"metaLocales\":{\"author\":\"作者\",\"date\":\"写作日期\",\"origin\":\"原创\",\"views\":\"访问量\",\"category\":\"分类\",\"tag\":\"标签\",\"readingTime\":\"阅读时间\",\"words\":\"字数\",\"toc\":\"此页内容\",\"prev\":\"上一页\",\"next\":\"下一页\",\"lastUpdated\":\"上次编辑于\",\"contributors\":\"贡献者\",\"editLink\":\"\",\"print\":\"打印\"},\"blogLocales\":{\"article\":\"文章\",\"articleList\":\"文章列表\",\"category\":\"分类\",\"tag\":\"标签\",\"timeline\":\"时间轴\",\"timelineTitle\":\"昨日不在\",\"all\":\"全部\",\"intro\":\"个人介绍\",\"star\":\"收藏\"},\"paginationLocales\":{\"prev\":\"上一页\",\"next\":\"下一页\",\"navigate\":\"跳转到\",\"action\":\"前往\",\"errorText\":\"请输入 1 到 $page 之前的页码！\"},\"outlookLocales\":{\"themeColor\":\"主题色\",\"darkmode\":\"外观\",\"fullscreen\":\"全屏\"},\"encryptLocales\":{\"iconLabel\":\"文章已加密\",\"placeholder\":\"输入密码\",\"remember\":\"记住密码\",\"errorHint\":\"请输入正确的密码\"},\"routeLocales\":{\"skipToContent\":\"跳至主要內容\",\"notFoundTitle\":\"页面不存在\",\"notFoundMsg\":[\"这里什么也没有\",\"我们是怎么来到这儿的？\",\"这 是 四 零 四 !\",\"看起来你访问了一个失效的链接\"],\"back\":\"返回上一页\",\"home\":\"带我回家\",\"openInNewWindow\":\"Open in new window\"},\"navbar\":[\"/\",{\"text\":\"实验室概况\",\"icon\":\"at\",\"prefix\":\"/\",\"children\":[{\"text\":\"实验室简介\",\"link\":\"introduction\"},{\"text\":\"研究方向\",\"link\":\"research-direction\"},{\"text\":\"联系我们\",\"link\":\"contact\"}]},{\"text\":\"师资队伍\",\"icon\":\"iconfont icon-group\",\"prefix\":\"/\",\"children\":[{\"text\":\"学术团队\",\"link\":\"team\"},{\"text\":\"丁兴号\",\"link\":\"teamindex/xhding\"},{\"text\":\"黄悦\",\"link\":\"teamindex/yhuang\"},{\"text\":\"肖珍龙\",\"link\":\"teamindex/zlxiao\"},{\"text\":\"涂晓彤\",\"link\":\"teamindex/xttu\"}]},{\"text\":\"项目介绍\",\"icon\":\"iconfont icon-workingDirectory\",\"prefix\":\"/project/\",\"children\":[{\"text\":\"肺结节检测\",\"link\":\"pulmonary_nodule\"},{\"text\":\"胸片项目\",\"link\":\"chest_radiograph\"}]},{\"text\":\"实验室资讯\",\"icon\":\"iconfont icon-news\",\"link\":\"/article\"},{\"text\":\"桃李天下\",\"icon\":\"iconfont icon-study\",\"link\":\"/graduate\"}],\"sidebar\":[]}}}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
+}

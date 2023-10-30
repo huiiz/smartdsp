@@ -1,0 +1,56 @@
+/*-------------*************************----------------
+Author: LYL
+Date: 2018/9/4
+说明：这是Chest_radiograph.html的样式
+-------------*************************----------------*/
+/*整个工程的foot样式*/
+.panel-body {margin:0px 30%; text-align:center}
+/*------------end--------------*/
+
+
+.detail a {text-decoration:underline; }
+.detail a:hover {text-decoration:none; }
+
+.picture1 {
+    display: block;
+    margin: 20px 5% auto;
+}
+
+.picture2{
+    margin: 40px 5% 50px;
+}
+
+.ABORT-US, .Projects {
+    margin: 50px auto 100px;
+    overflow: hidden;
+}
+
+.Model {
+    height: auto;
+    margin: 30px auto auto;
+    overflow: hidden;
+}
+
+.innovate, .result, .graph_injection {
+    height: auto;
+    margin: 30px 5% auto;
+    overflow: hidden;
+	text-align:center
+}
+
+.introduct-project {
+    height:auto;
+    margin:40px 5% auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    overflow: hidden;
+}
+/*-------------pulmonary_nodule 的 css----------------*/
+.innovate_detal{
+    height:550px;
+    margin:60px auto;
+	padding-bottom:100px;
+}
+
+
