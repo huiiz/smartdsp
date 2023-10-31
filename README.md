@@ -10,4 +10,4 @@ pnpm install
 
 It's builded by [HUII](https://github.com/huiiz).
 
-!
+Welcome to our website: [https://xmu-smartdsp.github.io/](https://xmu-smartdsp.github.io/)
