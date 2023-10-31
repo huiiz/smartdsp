@@ -32,9 +32,8 @@ export default hopeTheme({
   displayFooter: true,
   print: false,
 
-
   blog: {
-    articlePerPage: 3,
+    articlePerPage: 5,
     description: "厦门大学智能数据分析与处理实验室",
     intro: "/introduction.html",
     sidebarDisplay: "none",
