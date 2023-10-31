@@ -18,7 +18,7 @@ footer: 地址：中国福建省厦门市翔安区厦门大学翔安校区西部
 
 ## 实验室成果
 
-- [Noise2Blur: Online Noise Extraction and Denoising](https://xmu-smartdsp.github.io/news/news20191204.html)
+- [Noise2Blur: Online Noise Extraction and Denoising](/news/news20191204.html)
 
   **HuangXing Lin**
 

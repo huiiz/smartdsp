@@ -16,7 +16,7 @@ breadcrumb: false
           <img :src="`${avatarBaseUrl}${item.avatar}`" alt="" />
           <div class="name">{{ item.name }}</div>
           <div class="title">{{ item.title }}</div>
-          <a href="{{ item.link }}" target="_blank"><img src="assets/images/home.gif"></a>
+          <a :href="item.link" target="_blank"><img src="/assets/images/home.gif"></a>
       </div>
     </div>
 </div>
@@ -29,7 +29,7 @@ breadcrumb: false
           <img :src="`${avatarBaseUrl}${item.avatar}`" alt="" />
           <div class="name">{{ item.name }}</div>
           <div class="title">{{ item.title }}</div>
-          <a href="{{ item.link }}" target="_blank"><img src="assets/images/home.gif"></a>
+          <a :href="item.link" target="_blank"><img src="/assets/images/home.gif"></a>
       </div>
     </div>
 </div>
@@ -44,7 +44,7 @@ breadcrumb: false
           <img :src="`${avatarBaseUrl}${item.avatar}`" alt="" />
           <div class="name">{{ item.name }}</div>
           <div class="title">{{ item.title }}</div>
-          <a href="{{ item.link }}" target="_blank"><img src="assets/images/home.gif"></a>
+          <a :href="item.link" target="_blank"><img src="/assets/images/home.gif"></a>
       </div>
     </div>
 </div>
@@ -57,7 +57,7 @@ breadcrumb: false
           <img :src="`${avatarBaseUrl}${item.avatar}`" alt="" />
           <div class="name">{{ item.name }}</div>
           <div class="title">{{ item.title }}</div>
-          <a href="{{ item.link }}" target="_blank"><img src="assets/images/home.gif"></a>
+          <a :href="item.link" target="_blank"><img src="/assets/images/home.gif"></a>
       </div>
     </div>
 </div>
@@ -70,7 +70,7 @@ breadcrumb: false
           <img :src="`${avatarBaseUrl}${item.avatar}`" alt="" />
           <div class="name">{{ item.name }}</div>
           <div class="title">{{ item.title }}</div>
-          <a href="{{ item.link }}" target="_blank"><img src="assets/images/home.gif"></a>
+          <a :href="item.link" target="_blank"><img src="/assets/images/home.gif"></a>
       </div>
     </div>
 </div>

@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+        "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+      xmlns:content="http://purl.org/rss/1.0/modules/content/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:sioc="http://rdfs.org/sioc/ns#"
+      xmlns:sioct="http://rdfs.org/sioc/types#"
+      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/vnd.microsoft.icon" />
+    <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <title>最新资讯 | 厦门大智能数据分析与管理实验室</title>
+    <style type="text/css" media="all">
+        @import url("css/systemmenus.css");
+        @import url("css/systembase.css");
+        @import url("css/systemmessage.css");
+        @import url("css/systemtheme.css");</style>
+    <style type="text/css" media="all">
+        @import url("css/comment.css");
+        @import url("css/field.css");
+        @import url("css/node.css");
+        @import url("css/search.css");
+        @import url("css/user.css");
+        @import url("css/views.css");</style>
+    <style type="text/css" media="all">
+        @import url("css/ckeditor.css");
+        @import url("css/ctools.css");
+        @import url("css/panels.css");</style>
+    <style type="text/css" media="all">
+        @import url("css/style.css");
+        @import url("css/local.css");</style>
+	<style>
+	.container{
+	background:#FF9;
+	width:800px;
+	height:600px;
+	margin:20px auto 0;
+	cursor:pointer;
+	overflow:hidden;
+	box-shadow:6px 4px 5px #969696;
+}
+
+.container img{
+	background:#FFF;
+	width:800px;
+	height:600px;
+	padding:10px;
+	float:left;	
+	-webkit-transition:0.7s;
+	-moz-transition:0.7s;
+	-o-transition:0.7s;
+}
+
+.zoom{
+	position:absolute;
+	-moz-transform:translate(-150px,-120px);
+	-webkit-transform:scale(1.1) translate(-150px,-120px) skew(15deg,-30deg);
+	-ms-transform:scale(1.1) translate(-150px,-120px) skew(15deg,-30deg);
+	-o-transform:scale(1.1) translate(-150px,-120px) skew(15deg,-30deg);
+}
+
+</style>
+
+    <!--[if IE 6]>
+    <link type="text/css" rel="stylesheet" href="css/styleie6.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="css/menu.css">
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+<script src="js/jquery-1.6.1.min.js"></script>
+<style type="text/css" adt="123"></style>
+<script>
+$(function(){   
+		  
+		  var interval;
+		   $(".container img").click(function cover(){
+					$(this).addClass("zoom").fadeOut(700,append);		
+					function append(){
+					$(this).removeClass("zoom").appendTo(".container").show();
+					var name = $(".container").children("img").first().attr("alt");
+					 $(".name p").text("No "+name);
+					}	
+			  
+			})
+		   
+		   function auto(){
+			        var play = $(".container").children("img").first();
+					play.addClass("zoom").fadeOut(700,append);		
+					function append(){
+					$(this).removeClass("zoom").appendTo(".container").show();
+					var name = $(this).parent().children("img").first().attr("alt");
+					 $(".name p").text("No "+name);
+					}
+					interval = setTimeout(auto,4000);
+		   }
+		   
+		   $(".container img").hover(function(){
+					stopPlay();
+			},function(){
+				    interval = setTimeout(auto,4000);
+			})
+		   
+		   function stopPlay()
+				  {
+				  clearTimeout(interval)
+				  }
+		   auto();
+					
+})
+
+
+</script>
+
+    <script type="text/javascript" src="js/jquery.once.js"></script>
+    <script type="text/javascript" src="js/drupal.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="js/panels.js"></script>
+    <script type="text/javascript" src="js/hoverIntent.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"danland","theme_token":"n0bQqHOVBNi6Q8ISq7a6xNfWArDV8SWsEQ8vVt_I5tY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/themes\/danland\/scripts\/hoverIntent.js":1,"sites\/all\/themes\/danland\/scripts\/superfish.js":1,"sites\/all\/themes\/danland\/scripts\/functions.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/themes\/danland\/style.css":1,"sites\/all\/themes\/danland\/local.css":1,"sites\/all\/themes\/danland\/style.ie6.css":1}}});
+        //--><!]]>
+    </script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-news" style="background:url(image/background4.png) no-repeat">
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div  id="layout-type-2">
+    <div align="center"><img src="image/logo4.png" alt="" width="950" height="150" />
+    </div>
+    <div align="center"></div>
+    <div align="center">
+      <!-- /header -->
+    </div>
+    <div style="clear:both"></div>
+
+    <div id="menu">
+        <div id="rounded-menu-left"></div>
+        <div id="superfish">
+            <div class="region region-superfish-menu">
+                <div id="block-system-main-menu" class="block block-system block-menu">
+
+                    <h2 class="block-title">Main menu</h2>
+
+                    <div class="content">
+                        <ul class="menu"><li class="first leaf"><a href="index.html" title="" class="active">首页</a></li>
+                            <li class="leaf"><a href="member.html" title="">学术团队</a></li>
+                            <li class="leaf"><a href="research-direction.html">研究方向</a></li>
+                            <li class="leaf"><a href="20.html">科研项目</a></li>
+                            <li class="leaf"><a href="represent.html">学术论文</a></li>
+                            <li class="leaf"><a href="news.html" title="">最新资讯</a></li>
+                            <li class="leaf"><a href="paper-reading.html">学术讨论</a></li>
+                            <li class="leaf"><a href="硕博招生.html">硕博招生</a></li>
+                            <li class="leaf"><a href="26.html">学术资源</a></li>
+                            <li class="leaf"><a href="graduate-students.html">桃李天下</a></li>
+                            <li class="last leaf"><a href="entertainment.html">生活娱乐</a></li>
+                        </ul></div> <!-- end block content -->
+                </div> <!-- end block -->
+            </div>
+        </div> <!-- end primary -->
+        <div id="rounded-menu-right"></div>
+    </div> <!-- end menu -->
+    <div style="clear:both"></div>
+
+
+
+    <div style="clear:both"></div>
+    <div id="wrapper">
+
+        <div id="content">
+            <a id="main-content"></a>
+            		      		      			        				<h1 class="title" id="page-title">
+            2015届毕业聚餐        				</h1>
+			<div style="text-align: right">2015-06-22 19:00</div>
+             </br>
+			  <div><img src="newsimage/14_1.jpg" width="100%"></div>
+            <p class="STYLE1" style=" font-size:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015年6月21号，我实验室为即将毕业的师兄们举行了送别聚餐。餐会上，三年级师兄们表达了对老师的感谢，谢谢老师这三年来无私的教导；一、二年级师弟师妹们发自内心的感谢师兄们的照顾和指导，以及对师兄们离去的不舍。祝2015届毕业的师兄们前程似锦！</p>
+<div class="container">
+<img src="newsimage/14_3.jpg" alt="2" class="zoom" style="display: block; opacity: 0.009717113862390492;">
+<img src="newsimage/14_2.jpg" alt="3" class="" style="display: block;">
+<img src="newsimage/14_4.jpg" alt="4" class="" style="display: block;">
+<img src="newsimage/14_5.jpg" alt="5" class="" style="display: block;">
+<img src="newsimage/14_6.jpg" alt="6" class="" style="display: block;">
+<img src="newsimage/14_3.jpg" alt="3" class="" style="display: block;">
+<div id="frame"></div> 
+
+</div>
+            
+
+
+
+      </div></div>
+
+        </div> <!-- end content -->
+
+        <div style="clear:both"></div>
+    </div> <!-- end wrapper -->
+
+
+
+
+
+    <div style="clear:both"></div>
+    <div id="footer-wrapper">
+        <div id="footer">
+            <div class="region region-footer">
+                <div id="block-block-1" class="block block-block">
+
+
+                    <div class="content">
+                        <p style="text-align:right"><strong style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; line-height: 20.15625px;">联系我们：</strong><span style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; line-height: 20.15625px;">厦门大学智能数据分析与处理实验室  <strong>报考电话：</strong>0592-2580177 </span></span> <span><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253727094'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1253727094%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; line-height: 20.15625px;text-align: right"> Copyright@2007-2015  All rights reserved.</span><a href="http://weibo.com/u/3176005103" target="_blank"><img alt="关注智能多媒体实验室" height="16" src="image/weibo.jpg" title="关注智能多媒体实验室" typeof="foaf:Image" width="16" /></a></span>                                             
+                            <br/><span style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; line-height: 20.15625px"> <b>联系邮箱：</b><b>丁老师：</b>dxh@xmu.edu.cn  &nbsp;&nbsp;&nbsp;<b>曾老师：</b>dltsang@xmu.edu.cn   &nbsp;&nbsp;<b>蔡老师：</b>cbcai@xmu.edu.cn &nbsp;&nbsp;&nbsp;<b>廖老师：</b>ylliao@xmu.edu.cn &nbsp;&nbsp;&nbsp;<b>黄老师：</b>yhuang2010@xmu.edu.cn     </span></p>
+                    </div> <!-- end block content -->
+                </div> <!-- end block -->
+            </div>
+        </div>
+        <div id="subnav-wrapper">
+
+            </ul></div>
+    </div> <!-- end footer wrapper -->
+
+<div style="clear:both"></div>
+<!--<div id="notice"><p>Theme by <a href="http://www.danetsoft.com">Danetsoft</a> and <a href="http://www.danpros.com">Danang Probo Sayekti</a> inspired by <a href="http://www.maksimer.no">Maksimer</a></p></div>
+</div>-->  </body>
+</html>

@@ -11,7 +11,7 @@ editLink: false
     <div class="team">
         <div class="team-item" v-for="(item, index) in graduates" :key="index">
           <img :src="`${avatarBaseUrl}${item.avatar}`" alt="" />
-          <div class="name" v-if="item.link"><a href="{{ item.link }}" target="_blank" >{{ item.name }}</a></div>
+          <div class="name" v-if="item.link"><a :href="item.link" target="_blank" >{{ item.name }}</a></div>
           <div v-else>{{ item.name }}</div>
           <div class="year">毕业年份：{{ item.year }}</div>
           <div class="goto">{{ item.goto }}</div>
